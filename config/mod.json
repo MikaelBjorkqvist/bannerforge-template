@@ -1,0 +1,23 @@
+{
+  "$comment": "Single source of truth for this mod. Manifests are generated from this file at build time — never edit dist/ manifests by hand.",
+  "namespace": "bannerforge",
+  "id": "template",
+  "displayName": "BannerForge: Template",
+  "description": "BannerForge add-on template",
+  "authors": [
+    "BannerForge"
+  ],
+  "version": "0.1.0",
+  "minEngineVersion": "1.26.50",
+  "scriptModules": {
+    "@minecraft/server": "2.10.0",
+    "@minecraft/server-ui": "2.2.0"
+  },
+  "uuids": {
+    "bpHeader": "f4a2ed34-1400-47e0-8319-020201677a01",
+    "bpData": "30367e2d-8afd-41f5-a125-05bd3ead0459",
+    "bpScript": "0f48d083-d7f8-4115-9c80-f9f582699f03",
+    "rpHeader": "84a4d43c-06a0-4f29-bf9a-10a5c6ac5590",
+    "rpResources": "f851b8df-57fe-4327-aa02-2627d13ba190"
+  }
+}
